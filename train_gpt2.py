@@ -244,6 +244,7 @@ model = torch.compile(model)
 
 train_loader = DataLoaderLite(B=8, T=1024)
 
+
 max_lr = 6e-4
 min_lr = max_lr * 0.1
 warmup_steps = 10
