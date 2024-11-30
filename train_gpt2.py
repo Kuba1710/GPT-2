@@ -8,6 +8,7 @@ import time
 import math
 import inspect
 
+
 device = "cuda"
 
 class CausalSelfAttention(nn.Module):
